@@ -1,4 +1,4 @@
-baseURL = "https://tribouille.github.io/portfolio/"
+baseURL = "https://tribouille.github.io/tribouilloy-portfolio/"
 languageCode = "fr-fr"
 title = "Florent Tribouilloy"
 theme = ["PaperMod"]
