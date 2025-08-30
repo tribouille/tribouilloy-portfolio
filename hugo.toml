@@ -1,0 +1,36 @@
+baseURL = "https://tribouille.github.io/portfolio/"
+languageCode = "fr-fr"
+title = "Florent Tribouilloy"
+theme = ["PaperMod"]
+enableRobotsTXT = true
+
+
+[params]
+  defaultTheme = "auto"
+  ShowShareButtons = false
+  ShowReadingTime = false
+  ShowCodeCopyButtons = true
+  DateFormat = "2006-01-02"
+  # Hero
+  homeInfoParams = { Title = "Lead dev / CTO fractionné — Python & React", 
+                     Content = "J’aide des startups early-stage à livrer un **MVP fiable** intégrant des **APIs externes** et prêt pour la **scalabilité**. \n\n👉 [Contactez-moi](mailto:tribouil@gmail.com) · [Malt](https://www.malt.fr/profile/florenttribouilloy) · [LinkedIn](https://www.linkedin.com/in/florenttribouilloy)" }
+
+  socialIcons = [
+    { name = "Malt", url = "https://www.malt.fr/profile/florenttribouilloy" },
+    { name = "LinkedIn", url = "https://www.linkedin.com/in/florenttribouilloy" },
+    { name = "GitHub", url = "https://github.com/tribouille" }
+  ]
+
+[menu]
+  [[menu.main]]
+    name = "Études de cas"
+    url = "/cases/"
+    weight = 10
+  [[menu.main]]
+    name = "Offres"
+    url = "/offers/"
+    weight = 20
+  [[menu.main]]
+    name = "À propos"
+    url = "/about/"
+    weight = 30
