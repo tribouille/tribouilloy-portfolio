@@ -6,15 +6,20 @@ tags: ["Python", "React", "Azure", "APIs", "CI/CD", "Security"]
 ---
 
 ## Contexte
-Startup dans le domaine de la supply chain visant des **grands comptes**, priorité à la **sécurité** et à la **fiabilité**.
+Startup dans le domaine de la supply chain visant des **grands comptes**, avec des exigences fortes en **sécurité** et **fiabilité**.
 
 ## Actions
-- Architecture **Python/React** sur **Azure**, mise en place **CI/CD** et pratiques de sécurité.
-- Dév principal, cadrage, **mentoring** et recrutement R&D.
-- Préparation et réponses aux **audits techniques**.
+- Conception de l’architecture **Python/React** déployée sur **Azure**.  
+- Développement principal du produit et mise en production.  
+- Mise en place de la **CI/CD** et des bonnes pratiques de sécurité.  
+- Recrutement et accompagnement d’une équipe R&D.  
+- Gestion et préparation de plusieurs audits techniques
 
 ## Résultats
-- **Audits techniques réussis**.
-- Validation par des clients grands comptes.
-- Clients on-boardés avec succés.
-- Bases solides pour la scalabilité.
+- **Audits techniques réussis**, validant la robustesse et la sécurité de la solution.  
+- MVP adopté et validé par les premiers clients grands comptes.  
+- Bases techniques solides posées pour la **scalabilité** et l’évolution du produit.
+- Passation fluide vers un développeur interne, assurant la continuité sans perte de vitesse.
+
+## Stack
+Python (Flask) • React • Azure • PostgreSQL/SQLAlchemy • Redis • Docker • CI/CD
