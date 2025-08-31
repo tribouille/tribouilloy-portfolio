@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tribouille.github.io/tribouilloy-portfolio/sitemap.xml

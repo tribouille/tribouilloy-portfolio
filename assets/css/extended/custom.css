@@ -1,0 +1,90 @@
+:root{
+  --accent: #22D3EE;
+  --surface: rgba(255,255,255,.04);
+  --border: rgba(255,255,255,.10);
+  --radius: 16px;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  font-feature-settings: "liga","kern";
+  letter-spacing: .2px;
+}
+h1{ font-size: clamp(34px,5vw,44px); line-height:1.15; }
+h2{ font-size: clamp(26px,4vw,32px); margin-top:2.75rem; }
+h3{ margin-top:1.75rem; }
+
+/* Titres + rythme vertical */
+.post-title, h1 { font-size: clamp(34px, 5vw, 44px); line-height: 1.2; }
+h2 { font-size: clamp(26px, 4vw, 32px); margin-top: 2.5rem; }
+section, .page-content > * + * { margin-top: 1.25rem; }
+section + section { margin-top: 5rem; }
+
+/* Liens/CTA */
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.btn {
+  display:inline-block;
+  padding:.75rem 1.1rem;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: var(--radius);
+  border:1px solid var(--accent);
+}
+.btn--primary { background: var(--accent); color:#0b1220; border:0; }
+.btn--ghost{ color:var(--accent); border:1px solid var(--accent); background:transparent; }
+
+.btn + .btn--ghost {
+  margin-top: .75rem; /* bouton ghost après un autre bouton → espace */
+}
+/* Cards */
+.card{
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:var(--radius);
+    padding:1rem 1.25rem;
+    background: var(--surface); border:1px solid var(--border);
+    border-radius:var(--radius); padding:1rem 1.25rem; transition:.2s ease;
+}
+.card:hover{ transform: translateY(-2px); transition: .2s ease; }
+
+/* Grilles utilitaires */
+.grid{ display:grid; gap:1.25rem; }
+.grid-2{ grid-template-columns: repeat(2, minmax(0,1fr)); }
+.grid-3{ grid-template-columns: repeat(3, minmax(0,1fr)); }
+@media (max-width: 960px){ .grid-2,.grid-3{ grid-template-columns: 1fr; } }
+
+/* Listes de section (si tu laisses le listing par défaut ailleurs) */
+.post-entry{
+  border:1px solid var(--border); border-radius:var(--radius);
+  background:var(--surface); padding:1rem 1.25rem;
+}
+
+/* Tableaux, images, code */
+table{ border-collapse:separate; border-spacing:0; }
+td,th{ border-bottom:1px solid var(--border); padding:.6rem .8rem; }
+img{ border-radius:12px; }
+pre, code{ border-radius:12px; }
+
+
+.main.container {
+    animation: fade .3s ease-out;
+}
+@keyframes fade{ from{opacity:.0; transform:translateY(4px);} to{opacity:1; transform:none;} }
+body.section-cases .main {
+  max-width: none !important;   /* enlève la limite PaperMod */
+  width: 90% !important;        /* occupe 90% de l’écran */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;           /* un peu de souffle sur les bords */
+  padding-right: 2rem;
+}
+
+/* optionnel : en mobile, prends 100% */
+@media (max-width: 768px){
+  body.section-cases .main {
+    width: 100% !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

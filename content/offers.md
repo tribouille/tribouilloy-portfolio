@@ -1,9 +1,7 @@
 ---
-title: "Offres"
+title: "Mes offres"
 summary: "Formules simples et adaptées à votre phase."
 ---
-
-# Mes offres
 
 Je propose des approches **simples, efficaces et adaptées à votre stade de développement**.  
 Chaque mission est cadrée dès le départ avec un plan clair et des livrables concrets.  
@@ -53,5 +51,4 @@ Chaque mission est cadrée dès le départ avec un plan clair et des livrables c
 
 ## Contact
 
-👉 [Contactez-moi](mailto:tribouil@gmail.com)  
-🔗 [Malt](https://www.malt.fr/profile/florenttribouilloy) · [LinkedIn](https://www.linkedin.com/in/florenttribouilloy)
+👉 [Contactez-moi](mailto:tribouil@gmail.com) · [Malt](https://www.malt.fr/profile/florenttribouilloy) · [LinkedIn](https://www.linkedin.com/in/florenttribouilloy)
