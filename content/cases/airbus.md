@@ -2,6 +2,7 @@
 title: "Airbus (via Alten) — Outil de gestion des outillages industriels"
 date: 2018-01-01
 summary: "Reprise et amélioration d’un outil de gestion/maintenance des outillages industriels sur le site de St Éloi."
+description: "Consultant Alten chez Airbus : amélioration d’un outil industriel, création de KPIs et extension multi-secteurs. Projet fiabilisé et déployé en production."
 tags: ["VB.NET", "WPF", "KPIs", "Maintenance", "Industrial Software", "SQL"]
 ---
 

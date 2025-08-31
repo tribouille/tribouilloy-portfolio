@@ -2,6 +2,7 @@
 title: "MediaArea.net — Ingénieur R&D (FFV1 & MediaConch)"
 date: 2015-06-01
 summary: "Développement du codec FFV1 et de MediaConch, outil open-source de validation de conformité audiovisuelle."
+description: "Ingénieur R&D chez MediaArea : développement d’outils open source pour analyse vidéo et formats multimédia. Contribution en C++ et Python."
 tags: ["C++", "Qt", "Python", "FFV1", "MediaConch", "Open Source"]
 ---
 

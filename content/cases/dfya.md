@@ -2,6 +2,7 @@
 title: "DFYA — MVP supply chain pour grands comptes"
 date: 2024-07-01
 summary: "MVP robuste (Python/React, Azure), CI/CD et sécurité. Audits techniques grands comptes réussis."
+description: "Conception et lead technique du MVP MyExobrain (DFYA), validé par plusieurs audits grands comptes et transmis à une équipe interne."
 tags: ["Python", "React", "Azure", "APIs", "CI/CD", "Security"]
 ---
 

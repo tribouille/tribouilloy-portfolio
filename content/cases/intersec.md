@@ -1,7 +1,8 @@
 ---
 title: "Intersec — Ingénieur R&D Junior (Plateforme SMS-C)"
-date: 2013-06-01
+date: 2013-09-15
 summary: "Développement bas-niveau en C sur une plateforme SMS-C / gateway SMS trans-protocol."
+description: "Ingénieur R&D chez Intersec : développement bas niveau C pour SMS-C et passerelles télécom. Optimisation protocoles GSM/MAP et simulateur réseau GSM."
 tags: ["C", "Telecom", "GSM", "SCCP", "TCAP", "SMS-C"]
 ---
 

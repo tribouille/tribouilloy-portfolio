@@ -1,6 +1,7 @@
 ---
 title: "Mes offres"
 summary: "Formules simples et adaptées à votre phase."
+description: "Deux offres pour startups : Lead dev MVP Python/React et CTO fractionné 2–3 j/semaine. De l’idée au produit fiable, APIs, cloud et mentoring."
 ---
 
 Je propose des approches **simples, efficaces et adaptées à votre stade de développement**.  
@@ -51,4 +52,4 @@ Chaque mission est cadrée dès le départ avec un plan clair et des livrables c
 
 ## Contact
 
-👉 [Contactez-moi](mailto:tribouil@gmail.com) · [Malt](https://www.malt.fr/profile/florenttribouilloy) · [LinkedIn](https://www.linkedin.com/in/florenttribouilloy)
+👉 [Contactez-moi](mailto:tribouil@gmail.com) · [Malt](https://www.malt.fr/profile/florenttribouilloy) · [LinkedIn](https://www.linkedin.com/in/florenttribouilloy) · [GitHub](https://github.com/tribouille)

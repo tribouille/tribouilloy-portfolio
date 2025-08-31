@@ -1,6 +1,7 @@
 ---
 title: "À propos"
 summary: "Parcours, positionnement et philosophie de travail."
+description: "Ingénieur fullstack Python/React avec 10+ ans d’expérience. CTO fractionné pour startups early-stage : MVP, intégrations APIs et audits techniques."
 ---
 
 Je suis **Florent Tribouilloy**, développeur fullstack et **CTO fractionné**.  

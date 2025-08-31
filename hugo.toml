@@ -1,6 +1,7 @@
-baseURL = "https://tribouille.github.io/tribouilloy-portfolio/"
+baseURL = "https://portfolio.tribouilloy.com/"
 languageCode = "fr-fr"
-title = "Florent Tribouilloy"
+title = "Florent Tribouilloy — Lead dev / CTO fractionné"
+description = "Lead dev / CTO fractionné — Python & React. MVP SaaS, intégrations APIs, cloud, sécurité et mentoring pour startups."
 theme = ["PaperMod"]
 enableRobotsTXT = true
 
@@ -13,12 +14,12 @@ enableRobotsTXT = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = false
   ShowCodeCopyButtons = true
+  disableThemeToggle = false
   hideFooter = true
   DateFormat = "2006-01-02"
   # Hero
   homeInfoParams = { Title = "Lead dev / CTO fractionné — Python & React", Content = "J’aide des startups early-stage à livrer un **MVP fiable** intégrant des **APIs externes** et prêt pour la **scalabilité**. \n\n👉 [Contactez-moi](mailto:tribouil@gmail.com) · [Malt](https://www.malt.fr/profile/florenttribouilloy) · [LinkedIn](https://www.linkedin.com/in/florenttribouilloy)" }
 
-  images = ["og-default.svg"]
 
   socialIcons = [
     { name = "Malt", url = "https://www.malt.fr/profile/florenttribouilloy" },
@@ -26,6 +27,8 @@ enableRobotsTXT = true
     { name = "GitHub", url = "https://github.com/tribouille" },
     { name = "Email", url = "mailto:tribouil@gmail.com" }
   ]
+
+  images = ["og-default.svg"]
 
 [params.assets]
   favicon = "favicon.ico"

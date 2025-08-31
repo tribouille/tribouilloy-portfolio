@@ -2,6 +2,7 @@
 title: "Aformac — Jury formation Web Designer"
 date: 2022-01-01
 summary: "Participation au jury de la formation Web Designer, évaluation et conseils pour préparer les étudiants au marché du travail."
+description: "Jury Aformac pour la formation Web Designer. Évaluation et conseils aux étudiants pour renforcer leur préparation au marché et aux attentes professionnelles."
 tags: ["Jury", "Formation", "Web Design", "Mentoring"]
 ---
 

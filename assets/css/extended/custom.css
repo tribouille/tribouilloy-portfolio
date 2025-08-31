@@ -1,15 +1,51 @@
 :root{
-  --accent: #22D3EE;
-  --surface: rgba(255,255,255,.04);
-  --border: rgba(255,255,255,.10);
+  --accent: #0891B2;
+
+  --surface: rgba(0,0,0,.04);
+  --border: rgba(0,0,0,.10);
+
+  --text: #0F172A;
+  --text-muted: #334155;
   --radius: 16px;
 }
 
+body.light, html.light{
+  --accent: #0891B2;
+
+  --surface: rgba(0,0,0,.04);
+  --border: rgba(0,0,0,.10);
+
+  --text: #0F172A;
+  --text-muted: #334155;
+}
+
+body.dark, html.dark{
+  --surface: rgba(255,255,255,.04);
+  --border: rgba(255,255,255,.10);
+
+  --accent: #22D3EE;
+  --text: #E2E8F0;
+  --text-muted: #A8B3CF;
+}
+
+@media (prefers-color-scheme: light){
+  body:not(.dark):not(.light) {
+    --accent: #22D3EE;
+    --text: #E2E8F0;
+    --text-muted: #A8B3CF;
+    --surface: rgba(255,255,255,.06);
+    --border: rgba(255,255,255,.12);
+  }
+}
+
+/* Typo & couleurs de base (utilise les variables, pas des valeurs fixes) */
 html { scroll-behavior: smooth; }
 body {
   font-feature-settings: "liga","kern";
   letter-spacing: .2px;
+  color: var(--text);
 }
+a { color: var(--accent); }
 h1{ font-size: clamp(34px,5vw,44px); line-height:1.15; }
 h2{ font-size: clamp(26px,4vw,32px); margin-top:2.75rem; }
 h3{ margin-top:1.75rem; }
@@ -24,23 +60,52 @@ section + section { margin-top: 5rem; }
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-.btn {
-  display:inline-block;
-  padding:.75rem 1.1rem;
-  width: 100%;
-  box-sizing: border-box;
-  border-radius: var(--radius);
-  border:1px solid var(--accent);
+/* Boutons */
+.btn-group{
+  display: flex;
+  gap: .75rem;
+  margin-top: 1rem;
+  align-items: stretch;
 }
-.btn--primary { background: var(--accent); color:#0b1220; border:0; }
-.btn--ghost{ color:var(--accent); border:1px solid var(--accent); background:transparent; }
 
-.btn + .btn--ghost {
-  margin-top: .75rem; /* bouton ghost après un autre bouton → espace */
+.btn{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: .9rem 1.2rem;
+  font-weight: 600;
+  border-radius: 16px;
+  box-sizing: border-box;
+  min-height: 48px;
+  line-height: 1.2;
+  transition: background .2s ease, transform .2s ease;
 }
+
+.btn{ border: 2px solid transparent; }
+.btn--primary{
+  background: var(--accent);
+  color: #0b1220;
+  border-color: transparent;
+}
+
+.btn--ghost{
+  background: transparent;
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.btn:hover{ transform: translateY(-2px); }
+
+@media (max-width: 768px){
+  .btn-group{ flex-direction: column; }
+}
+
+
 /* Cards */
 .card{
-    border:1px solid rgba(255,255,255,.08);
+    border:1px solid var(--border);
     border-radius:var(--radius);
     padding:1rem 1.25rem;
     background: var(--surface); border:1px solid var(--border);
@@ -71,20 +136,51 @@ pre, code{ border-radius:12px; }
     animation: fade .3s ease-out;
 }
 @keyframes fade{ from{opacity:.0; transform:translateY(4px);} to{opacity:1; transform:none;} }
-body.section-cases .main {
-  max-width: none !important;   /* enlève la limite PaperMod */
-  width: 90% !important;        /* occupe 90% de l’écran */
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 2rem;           /* un peu de souffle sur les bords */
-  padding-right: 2rem;
+
+
+/* Footer */
+.ft-footer{
+  margin-top: 4rem;
+  padding: 1.25rem 0 2rem;
+  border-top: 1px solid var(--border);
+}
+.ft-footer__inner{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 1rem;
+  align-items: center;
+}
+.ft-copy{ color: var(--text-muted); margin: 0; }
+
+.ft-links, .ft-social{
+  display: flex; gap: 1rem; flex-wrap: wrap;
+}
+.ft-links a, .ft-social a{
+  color: var(--accent);
+  text-decoration: none;
+}
+.ft-links a:hover, .ft-social a:hover{
+  text-decoration: underline;
 }
 
-/* optionnel : en mobile, prends 100% */
-@media (max-width: 768px){
-  body.section-cases .main {
-    width: 100% !important;
-    padding-left: 1rem;
-    padding-right: 1rem;
+@media (max-width: 800px){
+  .ft-footer__inner{
+    grid-template-columns: 1fr;
+    gap: .5rem;
   }
+  .ft-links, .ft-social{ gap: .75rem; }
 }
+
+/* Note */
+.note{
+  border: 2px solid var(--accent);
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin: 2rem 0;
+  background: var(--surface);
+  color: var(--text);
+}
+.note strong{ color: var(--accent); }

@@ -1,5 +1,6 @@
 ---
 title: "Projets"
+description: "Études de cas et projets : MVP supply chain (DFYA), intégrations SaaS (LumApps), outils industriels Airbus, R&D multimédia et télécom."
 _build:
   list: never
 ---
@@ -12,20 +13,9 @@ Voici une sélection de missions représentatives de mon expérience, orientées
   <h3>DFYA — MVP supply chain</h3>
   <p>MVP robuste (Python/React, Azure), <strong>audits techniques réussis</strong>, passation interne fluide.</p>
 </a>
-
-<a class="card" href="lumapps-slack-teams/">
-  <h3>LumApps — Freelance Senior Fullstack (Slack & Teams)</h3>
-  <p>Développement fullstack des intégrations natives Slack & Teams, déployées chez des <strong>grands comptes</strong>.</p>
-</a>
-
-<a class="card" href="lumapps-po/">
-  <h3>LumApps — Product Owner (Intégrations)</h3>
-  <p>Pilotage de la roadmap et du backlog des intégrations (chat, RH, ticketing). Adoption renforcée.</p>
-</a>
-
-<a class="card" href="lumapps-google-chat/">
-  <h3>LumApps — Freelance Lead Dev (Google Chat)</h3>
-  <p>Conception et développement de l’intégration Google Chat, <strong>validée par Google</strong>.</p>
+<a class="card" href="lumapps/">
+  <h3>LumApps — Intégrations & Produit (2019–2022)</h3>
+  <p>Freelance puis CDI : intégrations Slack/Teams, Product Owner Intégrations, et Lead Dev Google Chat.</p>
 </a>
 
 <a class="card" href="aformac/">
